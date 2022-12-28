@@ -5,10 +5,10 @@ void main()
 {
     print("Enter your name?");
     // Reading name
-    String? name = stdin.readLineSync();
+    String? name = stdin.readLineSync()!;
     print("Enter your department?");
     //Reading department
-    String? department = stdin.readLineSync();
+    String? department = stdin.readLineSync()!;
  
     // Printing the name
     print("Hello, $name! \nWelcome to Dart!!");
